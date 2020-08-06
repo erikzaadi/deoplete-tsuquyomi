@@ -7,7 +7,7 @@ class Source(Base):
         Base.__init__(self, vim)
         self.name = 'typescript'
         self.mark = '[TS]'
-        self.filetypes = ["typescript"]
+        self.filetypes = ["typescript", "typescriptreact"]
         self.input_pattern = '\.'
         self.is_bytepos = True
         self.rank = 500
